@@ -24,7 +24,7 @@ services:
     autoDeploy: true
 
   # Frontend Service
-  - type: static
+  - type: web
     name: mern-deploy-frontend
     runtime: static
   
