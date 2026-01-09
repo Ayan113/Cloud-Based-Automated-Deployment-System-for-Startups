@@ -6,10 +6,15 @@
   "scripts": {
     "dev": "nodemon src/index.js",
     "start": "node src/index.js",
-    "test": "jest --coverage",
+    "test": "jest --passWithNoTests --coverage",
     "lint": "eslint src/"
   },
-  "keywords": ["express", "mongodb", "mern", "deployment"],
+  "keywords": [
+    "express",
+    "mongodb",
+    "mern",
+    "deployment"
+  ],
   "author": "Ayan Chatterjee",
   "license": "MIT",
   "dependencies": {
