@@ -366,3 +366,4 @@ MIT License - see [LICENSE](LICENSE) for details.
   ·
   <a href="https://github.com/yourusername/mern-deploy/issues">Request Feature</a>
 </div>
+# Trigger CI/CD pipeline
