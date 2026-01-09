@@ -20,7 +20,7 @@ services:
       - key: MONGODB_URI
         sync: false
       - key: CORS_ORIGIN
-        value: https://mern-deploy-frontend.onrender.com
+        value: https://mern-deploy-frontend-4s9t.onrender.com
     autoDeploy: true
 
   # Frontend Static Site
@@ -43,5 +43,5 @@ services:
         destination: /index.html
     envVars:
       - key: VITE_API_URL
-        value: https://mern-deploy-backend.onrender.com
+        value: https://mern-deploy-backend-kr8n.onrender.com
     autoDeploy: true
