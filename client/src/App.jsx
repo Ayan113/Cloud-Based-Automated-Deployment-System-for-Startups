@@ -1,6 +1,9 @@
 import { useState, useEffect } from 'react';
 import './App.css';
 
+// API URL - uses environment variable or falls back to production URL
+const API_URL = import.meta.env.VITE_API_URL || 'https://mern-deploy-backend-kr8n.onrender.com';
+
 function App() {
     const [healthStatus, setHealthStatus] = useState(null);
     const [loading, setLoading] = useState(true);
@@ -10,7 +13,7 @@ function App() {
         setLoading(true);
         setError(null);
         try {
-            const response = await fetch('/api/health');
+            const response = await fetch(`${API_URL}/api/health`);
             const data = await response.json();
             setHealthStatus(data);
         } catch (err) {
