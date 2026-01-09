@@ -18,17 +18,15 @@ services:
       - key: PORT
         value: 10000
       - key: MONGODB_URI
-        sync: false # Will be set manually in Render dashboard
+        sync: false
       - key: CORS_ORIGIN
         value: https://mern-deploy-frontend.onrender.com
     autoDeploy: true
 
-  # Frontend Service
+  # Frontend Static Site
   - type: web
     name: mern-deploy-frontend
     runtime: static
-  
-  
     rootDir: client
     buildCommand: npm install && npm run build
     staticPublishPath: dist
