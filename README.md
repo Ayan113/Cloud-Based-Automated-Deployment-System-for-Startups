@@ -1,22 +1,31 @@
 # 🚀 Cloud-Based Automated Deployment System for MERN Stack
 
-[![CI/CD Pipeline](https://github.com/yourusername/mern-deploy/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/yourusername/mern-deploy/actions/workflows/ci-cd.yml)
-[![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?logo=docker)](https://docker.com)
-[![AWS](https://img.shields.io/badge/AWS-EC2-FF9900?logo=amazon-aws)](https://aws.amazon.com)
+[![CI/CD Pipeline](https://github.com/Ayan113/Cloud-Based-Automated-Deployment-System-for-Startups/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/Ayan113/Cloud-Based-Automated-Deployment-System-for-Startups/actions/workflows/ci-cd.yml)
+[![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?logo=docker)](https://hub.docker.com/u/ayan1813)
+[![Render](https://img.shields.io/badge/Render-Deployed-46E3B7?logo=render)](https://mern-deploy-frontend-4s9t.onrender.com)
 
 A **production-ready, fully automated deployment system** for MERN stack applications. Built specifically for startups that need reliable, fast, and secure deployments without the complexity of enterprise solutions.
+
+## 🌐 Live Demo
+
+| Service | URL | Status |
+|---------|-----|--------|
+| **Frontend Dashboard** | [https://mern-deploy-frontend-4s9t.onrender.com](https://mern-deploy-frontend-4s9t.onrender.com) | ✅ Live |
+| **Backend API** | [https://mern-deploy-backend-kr8n.onrender.com](https://mern-deploy-backend-kr8n.onrender.com) | ✅ Live |
+| **Health Check** | [https://mern-deploy-backend-kr8n.onrender.com/api/health](https://mern-deploy-backend-kr8n.onrender.com/api/health) | ✅ Healthy |
+| **Docker Hub** | [ayan1813/mern-deploy-backend](https://hub.docker.com/r/ayan1813/mern-deploy-backend) | ✅ Published |
 
 ---
 
 ## 📋 Table of Contents
 
+- [Live Demo](#-live-demo)
 - [Why This Matters](#-why-this-matters)
 - [Architecture](#-architecture)
 - [Features](#-features)
 - [Quick Start](#-quick-start)
 - [Project Structure](#-project-structure)
 - [CI/CD Pipeline](#-cicd-pipeline)
-- [AWS Deployment](#-aws-deployment)
 - [Environment Configuration](#-environment-configuration)
 - [Security](#-security)
 - [Troubleshooting](#-troubleshooting)
@@ -362,8 +371,7 @@ MIT License - see [LICENSE](LICENSE) for details.
 <div align="center">
   <strong>Built with ❤️ for startups that move fast</strong>
   <br><br>
-  <a href="https://github.com/yourusername/mern-deploy/issues">Report Bug</a>
+  <a href="https://github.com/Ayan113/Cloud-Based-Automated-Deployment-System-for-Startups/issues">Report Bug</a>
   ·
-  <a href="https://github.com/yourusername/mern-deploy/issues">Request Feature</a>
+  <a href="https://github.com/Ayan113/Cloud-Based-Automated-Deployment-System-for-Startups/issues">Request Feature</a>
 </div>
-# Trigger CI/CD pipeline
