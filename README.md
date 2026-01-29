@@ -215,16 +215,29 @@ graph LR
 
 ### Required GitHub Secrets
 
+> **Note**: AWS deployment is **optional**. The app deploys automatically to Render without any configuration (see `render.yaml`). Only configure AWS if you need self-hosted deployment.
+
+#### For Docker Hub (Required)
+
 | Secret | Description |
 |--------|-------------|
 | `DOCKERHUB_USERNAME` | Docker Hub username |
 | `DOCKERHUB_TOKEN` | Docker Hub access token |
+
+#### For AWS Deployment (Optional)
+
+To enable AWS deployment, set repository variable `AWS_DEPLOYMENT_ENABLED` = `true`, then add:
+
+| Secret | Description |
+|--------|-------------|
 | `AWS_ACCESS_KEY_ID` | AWS IAM access key |
 | `AWS_SECRET_ACCESS_KEY` | AWS IAM secret key |
 | `EC2_HOST` | EC2 instance public IP/hostname |
 | `EC2_SSH_KEY` | EC2 SSH private key |
 | `MONGODB_URI` | MongoDB Atlas connection string |
 | `CORS_ORIGIN` | Production frontend URL |
+
+📚 **[Full AWS Setup Guide →](docs/SETUP-AWS-DEPLOYMENT.md)**
 
 ---
 
